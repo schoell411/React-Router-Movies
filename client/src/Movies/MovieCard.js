@@ -2,12 +2,12 @@ import React from 'react';
 
 const MovieCard = props => {
   if(!props){
-    return 
+    return (
     <div>
       Loading movie information..
-    </div>;
-    };
-  const { title, director, metascore, starts} = props;
+    </div>);
+  };
+  const { title, director, metascore, stars} = props;
   return (
     <div className="save-wrapper">
       <div className="movie-card">
